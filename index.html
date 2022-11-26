@@ -4,10 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./icons/logo.png" />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/333064f739.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+
     <title>Quotenator</title>
   </head>
   <body>
+    <section class="container">
+      <div class="card">
+        <header>Quote of the day</header>
+        <div class="content">
+          <div class="quote-area">
+            <i class="fas fa-quote-left"></i>
+            <p class="quote" id="quote">Well begun is half done.</p>
+            <i class="fas fa-quote-right"></i>
+          </div>
+        </div>
+        <div class="author">
+          <h5 id="author">- Aristotle</h5>
+        </div>
+        <div class="actions">
+          <div class="action-buttons">
+            <button class="btn" id="sound-btn">
+              <i class="fa-solid fa-volume-high"></i>
+            </button>
+            <button class="btn"><i class="fa-brands fa-twitter"></i></button>
+          </div>
+          <button id="generate">New quote !</button>
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
